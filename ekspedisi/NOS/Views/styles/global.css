@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans';
+}
+
+a{
+	text-decoration: none; 
+}
+
+div#header{
+	width: 100%;
+	height: 70px;
+	background-color: #2c3e50;
+	margin: 0 auto;
+}
+
+.logo{
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+img#icon-logo{
+	width: 200px;
+}
+
+.logo a{
+	font-size: 25px;
+	color: #fff;
+	font-weight: bolder;
+}
+
+.logo a span{
+	font-weight: 300;
+}
+
+ul.menu li{
+	list-style: none;
+	display: inline;
+	margin-left: 20px;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 5px 15px 5px 15px;
+}
+
+div.navMenu{
+	padding-top: 20px;
+	float: right;
+	margin-right: 50px;
+}
+ul#nav li{
+	list-style: none;
+}
+ul#nav li a{
+	color: #ccc;
+	display: block;
+	padding: 10px;
+	font-size: 20px;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+
+
+ul a{
+	color: white;
+}
+
+div#container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.sidebar{
+	margin-top: 50px;
+	width: 100px;
+	height: 500px;
+	float: left;
+}
+.add{
+	background-color: #464646;
+}
+.list{
+	background-color: #49546a;
+}
+ul#nav li a:hover{
+	background-color: #030303;
+	color: #fff;
+}
+
+
+
+
+
+div.wrapper{
+	margin-top: 15px;
+}
+
+ul#nav{
+
+}
+
+
+
+.content{
+	width: auto;
+	margin-left: 200px;
+	height: 500px;
+	background-color: #fff;
+	padding: 15px;
+}
+
+.content p {
+	color: #424242;
+	font-size: 0.73em;
+}
+
+div#box{
+	margin-top: 15px;
+}
+
+div#box .box-top{
+	color: #fff;
+	text-shadow: 0px 1px #000;
+	background-color: #2980b9;
+	padding: 5px;
+	padding-left: 15px;
+	font-weight: 300;
+}
+
+div#box .box-panel{
+	padding: 15px;
+	background-color: #fff;
+}
+
+table{
+	text-align: left;
+	width: 1000px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	border-collapse: collapse;
+}
+
+thead{
+	color: #fff;
+	background-color: #464646;	
+}
+
+p#section {
+	font-size: 20px;
+	font-weight: bolder;
+	color: #fff;
+	background-color: #464646;	
+	width: 700px;
+	height: 50px;
+	padding: 10px 10px 10px 15px;
+	margin-top: 20px;
+}
+
+tbody td, thead th {
+	padding: 10px 10px 10px 15px;
+}
+
+tbody, tbody td{
+	background-color: #49546a;
+	color: #fff;
+	padding-left: 20px;
+}
+
+tbody a{
+	color: #d2d8e3;	
+}
+
+p#label, input, select{
+	margin-left: 30px;
+}
+
+p#label, span#label{
+	font-size: 18px;
+}
+
+input, select{
+	font-size: 18px;
+	width: 600px;
+	height: 40px;
+	padding: 2px 3px 2px 10px;
+}
+
+img#action{
+	width: 20px;
+	margin-left: 20px;
+}
+
+div.login{
+	margin-left: 25%;
+	margin-top: 50px;
+}
+
+p.label{
+	margin-left: 3%;
+	font-weight: bolder;
+}
+
+ul.menu li{
+	list-style: none;
+	display: inline;
+	margin-left: 20px;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 5px 15px 5px 15px;
+}
+
+div.navMenu{
+	padding-top: 20px;
+	float: right;
+	margin-right: 50px;
+}
+
+ul a{
+	color: white;
+}
+
+input[type=submit]{
+	margin-bottom: 20px;
+}
+
+div#menuContainer{
+	margin-top: 80px;
+}
+
+button.menuCustomer{
+	font-size: 18px;
+	border: none;
+	margin-left: 25%;
+	margin-top: 30px;
+	width: 50%;
+	height: 50px;
+	text-align: center;
+	color: white;
+	padding: 10px 7px 10px 7px;
+	background-color: #2c3e50;
+	display: block;
+}
+
+button.menuCustomer:hover{
+	cursor: pointer;
+	background-color: #2c3e75;
+}
+
+div.form-group{
+	margin-top: 80px
+}
+
+h2#tracking{
+	text-align: center;
+}
+
+#position{
+	display: block;
+}

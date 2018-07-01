@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open Sans';
+}
+
+a{
+	text-decoration: none; 
+}
+
+div#header{
+	width: 100%;
+	height: 70px;
+	background-color: #2c3e50;
+	margin: 0 auto;
+}
+
+.logo{
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.logo a{
+	font-size: 25px;
+	color: #fff;
+	font-weight: bolder;
+}
+
+.logo a span{
+	font-weight: 300;
+}
+
+img#icon-logo{
+	width: 200px;
+}
+
+ul.menu li{
+	list-style: none;
+	display: inline;
+	margin-left: 20px;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 5px 15px 5px 15px;
+}
+
+div.navMenu{
+	padding-top: 20px;
+	float: right;
+	margin-right: 50px;
+}
+
+ul a{
+	color: white;
+}
+
+div#menuContainer{
+	margin-top: 80px;
+}
+
+button.menuCustomer{
+	font-size: 18px;
+	border: none;
+	margin-left: 25%;
+	margin-top: 30px;
+	width: 50%;
+	height: 50px;
+	text-align: center;
+	color: white;
+	padding: 10px 7px 10px 7px;
+	background-color: #2c3e50;
+	display: block;
+}
+
+button.menuCustomer:hover{
+	cursor: pointer;
+	background-color: #2c3e75;
+}
